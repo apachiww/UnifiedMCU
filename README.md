@@ -1,2 +1,11 @@
 # UnifiedMCU
-试图打造适用于8051，AVR，ARM（ST的STM32系列，Atmel的SAM系列，TI的Tiva和SimpleLink系列）单片机的跨平台通用MCU开发环境。An attempt to set up an environment for common MCUs, including 8051, AVR and ARM
+
+**施工中。。。**
+
+基于VSCode，适用于8051，AVR，ARM指令集单片机的通用跨平台开发环境，可以用于Windows，Linux，FreeBSD
+
+各单片机工程模板见[templates](templates/)
+
+根据构建过程编写的各平台的环境快速构建脚本见[scripts](scripts/)
+
+有关环境构建以及使用的[笔记](https://github.com/apachiww/Notes/blob/master/201220a_mcu-ide.md)
