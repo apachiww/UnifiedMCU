@@ -7,6 +7,16 @@ This is the project template for STC89C52RC based on 8051, building from both so
 
 Just open this folder with VSCode
 
+To BUILD your project (Release), go to `Terminal->Run Task->01 Make (release)`, or run `make VER=release` at the terminal
+
+To BUILD your project (Debug), go to `Terminal->Run Task->02 Make (debug)`, or run `make VER=debug` at the terminal
+
+To REMOVE all generated files, go to `Terminal->Run Task->03 Clean`, or run `make clean` at the terminal
+
+To LAUNCH DEBUG with vm8051, run `make debug` at the terminal (run `make VER=debug` first)
+
+To DOWNLOAD the file to your device, connect your device to the computer via USB serial, then run `make install PORT=/dev/YOUR_TTY` at the terminal (run `make VER=release` first)
+
 
 ## Directory structure
 
