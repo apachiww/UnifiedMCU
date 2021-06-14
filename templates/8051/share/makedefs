@@ -1,0 +1,45 @@
+#	This file includes the common definitions independent of 
+#   project files, mainly the command variables
+#
+#	apachiww@github.com
+#
+
+#
+# Shell
+#
+
+SHELL := bash
+
+#
+# Toolchain commands
+#
+
+CPP := sdcpp
+CC := sdcc
+AS := sdas8051
+LD := sdld
+
+#
+# Debug commands 
+#
+
+DEBUG := sdcdb
+
+#
+# Archive commands
+#
+
+AR := sdar
+
+#
+# File convert commands
+#
+
+MAKEHEX := packihx
+MAKEBIN := makebin
+
+#
+# Miscellaneous commands
+#
+
+RM := rm -f
